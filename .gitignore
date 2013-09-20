@@ -1,0 +1,9 @@
+# Intellij IDEA project files
+*.iml
+.idea/
+
+# Compiled code
+*.class
+
+# Maven output
+target/
