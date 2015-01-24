@@ -2,21 +2,11 @@ package pp.ua.raindev;
 
 import java.util.regex.Matcher;
 
-/**
- * Quine, implemented in pure Java.
- *
- * @author raindev
- */
 public class Quine {
     private static final String self = "package pp.ua.raindev;\n" +
             "\n" +
             "import java.util.regex.Matcher;\n" +
             "\n" +
-            "/**\n" +
-            " * Quine, implemented in pure Java.\n" +
-            " *\n" +
-            " * @author raindev\n" +
-            " */\n" +
             "public class Quine {\n" +
             "    private static final String self = \"~\";\n" +
             "\n" +
