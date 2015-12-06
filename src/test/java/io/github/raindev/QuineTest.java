@@ -1,5 +1,4 @@
-package pp.ua.raindev;
-
+package io.github.raindev;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -23,7 +22,7 @@ import static org.testng.Assert.assertEquals;
  */
 public class QuineTest {
     private static final String rootPath = "./src/main/java/";
-    private static final String sourcePath = "pp/ua/raindev/Quine.java";
+    private static final String sourcePath = "io/github/raindev/Quine.java";
     private static final String fullPath = rootPath + sourcePath;
     private String source;
     private String output;
@@ -49,7 +48,6 @@ public class QuineTest {
         ).getMethod("main", String[].class).invoke(null, new Object[]{new String[]{}});
         output = baos.toString("utf8");
     }
-
 
     @Test
     public void run() {
